@@ -1,0 +1,61 @@
+.create-button{
+    border: 2px solid indianred;
+    background-color: white;
+    color: indianred;
+    font-weight: bold;
+    padding: 10px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.control{
+    margin: 0 1em 0 0;
+    padding: 0.9em;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+// .container{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+// }
+
+// .create{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr auto;
+// }
+
+h1{
+    color: indianred;
+}
+
+h2{
+    color: gray;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.page{
+    padding: 1em;
+    box-shadow: 0 .1em .8em rgba(black, .3);
+}
+
+header{
+    background-color: ivory;
+    padding: .2em 0;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    border-bottom: 2px solid beige;
+}
+
+button.calendar, button.calendar:active {
+    width: 2.75rem;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAYAAAAEN20fAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7ZQxToVAEIY/YCHGxN6XGOIpnpaEsBSeQC9ArZbm9TZ6ADyBNzAhQGGl8Riv4BLAWAgmkpBYkH1b8FWT2WK/zJ8ZJ4qiI6XUI3ANnGKWBnht2/ZBDRK3hgVGNsCd7/ui+JkEIrKtqurLpEWaphd933+IyI3LEIdpCYCiKD6HcuOa/nwOa0ScJEnk0BJg0UTUWJRl6RxCYEzEmomsIlPU3IPW+grIAbquy+q6fluy/28RIBeRMwDXdXMgXLj/B2uimRXpui4D9sBeRLKl+1N+L+t6RwbWrZliTTTr1oxYtzVWiTQAcRxvTX+eJMnlUDaO1vpZRO5NS0x48sIwfPc87xg4B04MCzQi8hIEwe4bl1DnFMCN2zsAAAAASUVORK5CYII=') !important;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+  }

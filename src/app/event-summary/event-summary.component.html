@@ -1,0 +1,26 @@
+<div class="card"
+     (click)="viewEvent(modalData)">
+    <h2> {{title}}</h2>
+    <h3> {{date}}</h3>
+    <h3> {{time}}</h3>
+</div>
+
+<ng-template #modalData
+             let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title"
+            id="modal-basic-title">Event details</h4>
+    </div>
+    <div class="modal-body">
+        <h2> {{eventViewed.title}}</h2>
+        <h3> {{eventViewed.description}}</h3>
+        <h3> {{eventViewed.startDate}}</h3>
+        <h3> {{eventViewed.startTime}}</h3>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button"
+                class="btn"
+                (click)="modal.close()">Close</button>
+    </div>
+</ng-template>
